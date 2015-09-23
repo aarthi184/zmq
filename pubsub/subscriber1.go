@@ -17,5 +17,4 @@ func main() {
         contents, _ := subscriber.Recv(0)
         fmt.Printf("[%s] %s\n", address, contents)
     }
-
 }
